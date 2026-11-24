@@ -1,4 +1,4 @@
-use crate::{NetworkSendable, Wire, helpers::read_length, user::User};
+use crate::{NetworkSendable, Wire, user::User};
 
 #[derive(Debug, PartialEq)]
 pub struct ForwardingMessage {

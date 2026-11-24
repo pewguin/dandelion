@@ -45,8 +45,7 @@ impl Wire for User {
 #[cfg(test)]
 mod tests {
     use rsa::BoxedUint;
-
-use crate::{Wire, user::User};
+    use crate::{Wire, user::User};
 
     #[test]
     fn user_survives_serialization() {
